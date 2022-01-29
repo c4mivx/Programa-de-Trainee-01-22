@@ -1,12 +1,12 @@
 Retornar uma lista que apresente o nome das categorias e a quantidade de
-produtos totais em cada categoria.
+produtos totais em cada categoria:
 
 SELECT categories.name,  SUM(products.amount) AS SUM FROM categories
 INNER JOIN products ON categories.id = products.id_categories 
 GROUP BY categories.id;
 
 Apresentar um relatório com as 4 categorias que mais tiveram produtos
-comprados.
+comprados:
 
 SELECT top 4 categories.name,  categories.id, orders_products.units_sold
 FROM categories 
