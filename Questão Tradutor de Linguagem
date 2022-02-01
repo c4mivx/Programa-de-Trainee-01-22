@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    
+    <script type="text/javascript">
+    var palavra = [];
+    
+    do {
+    palavra = prompt('Digite uma palavra (AO DIGITAR X PARA): ');
+
+    } while (palavra =="X")
+
+function verifica() {
+
+    if(str.slice(-1) == "o") {
+        document.write(" "+ palavra + " = presente tense, 1st")
+        
+    }
+    
+    else if(str.slice(-1) == "os") {
+        document.write(" "+ palavra + " = presente tense, 2nd")
+       
+    }
+
+    else if(str.slice(-1) == "a") {
+        document.write(" "+ palavra + " = presente tense, 3rd")
+        
+    }
+
+    else if(str.slice(-1) == "om") {
+        document.write(" "+ palavra + " = presente tense, 4th")
+        
+    }
+
+    else if(str.slice(-1) == "ons") {
+        document.write(" "+ palavra + " = presente tense, 5th")
+        
+    }
+    
+    else if(str.slice(-1) == "am") {
+        document.write(" "+ palavra + " = presente tense, 6th")
+        
+    }
+
+    else if(str.slice(-1) == "ei") {
+        document.write(" "+ palavra + " = past tense, 1st")
+        
+    }
+    
+    else if(str.slice(-1) == "es") {
+        document.write(" "+ palavra + " = past tense, 2nd")
+        
+    }
+
+    else if(str.slice(-1) == "e") {
+        document.write(" "+ palavra + " = past tense, 3rd")
+        
+    }
+
+    else if(str.slice(-1) == "em") {
+        document.write(" "+ palavra + " = past tense, 4th")
+        
+    }
+
+    else if(str.slice(-1) == "est") {
+        document.write(" "+ palavra + " = past tense, 5th")
+        
+    }
+    
+    else if(str.slice(-1) == "im") {
+        document.write(" "+ palavra + " = past tense, 6th")
+        
+    }
+
+    else if(str.slice(-1) == "ai") {
+        document.write(" "+ palavra + " = future tense, 1st")
+      
+    }
+    
+    else if(str.slice(-1) == "ais") {
+        document.write(" "+ palavra + " = future tense, 2nd")
+      
+    }
+
+    else if(str.slice(-1) == "i") {
+        document.write(" "+ palavra + " = future tense, 3rd")
+     
+    }
+
+    else if(str.slice(-1) == "aem") {
+        document.write(" "+ palavra + " = future tense, 4th")
+       
+    }
+
+    else if(str.slice(-1) == "aist") {
+        document.write(" "+ palavra + " = future tense, 5th")
+      
+    }
+    
+    else if(str.slice(-1) == "aim") {
+        document.write(" "+ palavra + " = future tense, 6th")
+      
+    }
+
+    else {
+        document.write("not a verb case")
+    }
+
+
+}
+   </script>
+
+ </head>
+</html>
