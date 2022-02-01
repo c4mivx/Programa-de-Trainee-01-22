@@ -1,0 +1,35 @@
+// Essa questão foi a mais incompleta decidi fazer em python uma máquina de estados mas acabou não funcionando muiro bem. Estou aprendendo além de JS, python.
+
+def plus_one():
+  print('PLUSONE')
+  return 1
+ 
+def minus_one():
+  print('MINUSONE')
+  return -1
+ 
+def inc(value):
+  print('INC')
+  return value + 1
+ 
+def dup(value):
+  print('DUP')
+  return value * 2
+ 
+############################
+constant = 5
+
+if constant > 0:
+  value = plus_one()
+elif constant < 0:
+  value = minus_one()
+ 
+while value * 2 <= constant:
+  value = dup(value)
+ 
+while value < constant:
+  value = inc(value)
+ 
+print(value)
+ 
+# print(value)
